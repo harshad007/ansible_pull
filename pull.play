@@ -12,13 +12,12 @@
 # DO NOT RUN THIS AGAINST YOUR HOSTS WITHOUT CHANGING THE repo_url
 # TO SOMETHING YOU HAVE PERSONALLY VERIFIED
 #
-#
 ---
 
 - hosts: servers
   become: yes
   become_method: sudo
-  remote_user: root
+#remote_user: root
 
   vars:
 
@@ -37,7 +36,7 @@
     # Repository to check out -- YOU MUST CHANGE THIS
     # repo must contain a local.yml file at top level
 #    repo_url: git://github.com/sfromm/ansible-playbooks.git
-    repo_url: git://github.com/harshad007/yamlfiles.git  local.yml checkout=HEAD 
+    repo_url: git://github.com/harshad007/ansible_pull.git  local.yml checkout=HEAD 
 
   tasks:
     - name: install git

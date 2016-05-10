@@ -5,3 +5,10 @@ localhost
 192.168.33.21
 192.168.33.22
 192.168.33.23
+
+[datacenter:children]
+servers
+
+[datacenter:vars]
+ansible_user=vagrant
+ansible_password=vagrant
