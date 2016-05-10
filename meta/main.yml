@@ -12,7 +12,4 @@ galaxy_info:
     versions:
     - all
   galaxy_tags:
-    - ansible
-
-dependencies:
-  - harshad007.ansible
+    - ansible pull
