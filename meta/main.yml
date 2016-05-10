@@ -1,13 +1,18 @@
 ---
 galaxy_info:
-  author: "harshad velapure" 
-  description: "role for ansible pull architecture"  
-  license: license (GPLv2, CC-BY, etc)
-  min_ansible_version: 1.2
-
+  author: Harshad Velapure
+  description: Ansible Pull architecture Playbook
+  license: license (BSD, MIT)
+  min_ansible_version: 1.5 
   platforms:
   - name: Debian
     versions:
-    - 14
+    - all
+  - name: Ubuntu
+    versions:
+    - all
   galaxy_tags:
     - ansible_pull
+
+dependencies:
+  - harshad007.ansible_pull
