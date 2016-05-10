@@ -5,12 +5,9 @@ galaxy_info:
   license: license (BSD, MIT)
   min_ansible_version: 1.5 
   platforms:
-  - name: Debian
-    versions:
-    - all
   - name: Ubuntu
     versions:
-    - all
+    - trusty
   galaxy_tags:
     - ansible
 dependencies: []
