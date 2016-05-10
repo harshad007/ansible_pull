@@ -1,6 +1,12 @@
+---
 galaxy_info:
   author: "harshad velapure" 
   description: "role for ansible pull architecture"  
   license: license (GPLv2, CC-BY, etc)
   min_ansible_version: 1.2
-  OS: "UBUNTU"
+
+  platforms:
+   - name: Debian
+     versions:
+      - "Ubuntu-14.04"
+dependencies: []
