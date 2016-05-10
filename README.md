@@ -1,10 +1,10 @@
 # ansible_pull
 
-This role implements "ANSIBLE PULL" architecture usingf Ansible's PUSH mechanism.
+This role implements "ANSIBLE PULL" architecture using Ansible's PUSH mechanism.
 
 
 #NOTE
-PLEASE CHANGE REPOSITORY URL AND IP ADDRESSES IN HOSTS FILE
+PLEASE CHANGE REPOSITORY URL IN PULL.PLAY FILE AND IP ADDRESSES IN HOSTS FILE
 
 #for VIRTUAL BOX
 
